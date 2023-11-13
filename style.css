@@ -102,6 +102,15 @@ button:hover{
     flex-direction: column;
     gap: 20px;
 }
+.Title > h1{
+     display: flex;
+    color: #93B1A6;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 80px;
+    padding: none;
+     
 
 }
 
