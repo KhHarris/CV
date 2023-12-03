@@ -3,10 +3,11 @@ const observer = new IntersectionObserver((ans) =>{
         if(entry.isIntersecting){
             entry.target.classList.add("show");
         }
-        else
-        {
-            entry.target.classList.remove("show");
-        }
+        //comment out to stop animation from looping
+       // else
+        //{
+          //  entry.target.classList.remove("show");
+        //}
     });
 });
 
